@@ -1,0 +1,11 @@
+[25-May-2018 17:49:47 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[27-May-2018 21:40:37 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[29-May-2018 21:14:38 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[30-May-2018 05:50:07 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[30-May-2018 14:24:04 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[01-Jun-2018 04:58:00 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[05-Jun-2018 06:12:06 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[05-Jun-2018 10:31:11 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[24-Jun-2018 22:25:41 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[25-Jun-2018 17:00:15 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
+[11-Jul-2018 22:13:59 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/wceacdvu/public_html/rsc/user/register.php on line 658
