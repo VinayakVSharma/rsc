@@ -511,12 +511,12 @@ require_once("./include/acm_membership_config.php");
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2018 is the 2nd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+              <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+              <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
               <ul>
                 <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
                 <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
+                <li><span>Website:</span> http://rsc.wce.ac.in</li>
               </ul>
             </div>
           </div>

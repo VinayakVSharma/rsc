@@ -1,3 +1,9 @@
+<?php 
+
+require_once("./include/db_config.php");
+require_once("./include/acm_membership_config.php");
+
+?>
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -15,8 +21,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Page Description and Author -->
-  <meta name="description" content="National Research Symposium is a two day national level research symposium organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli during 19-20 December 2016." />
-  <meta name="keywords" content="National Research Symposium on Computing, RSC 2016, Research Symposium,Walchand College of Engineering, WCE Sangli, Computing, Department of Computer Science &amp; Engineering, TEQIP-II, WCE ACM Student Chapter" />
+  <meta name="description" content="National Research Symposium is a two day national level research symposium organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli during 19-20 December 2018." />
+  <meta name="keywords" content="National Research Symposium on Computing, RSC 2018, Research Symposium,Walchand College of Engineering, WCE Sangli, Computing, Department of Computer Science &amp; Engineering, TEQIP-II, WCE ACM Student Chapter" />
 
   <meta name="author" content="Harshal Khairnar - CBA Solutions" />
 
@@ -156,7 +162,7 @@
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
             <a class="navbar-brand" href="index.php">
-              <h1>WCE Research Symposium on Computing - RSC 2017</h1>
+              <h1>WCE Research Symposium on Computing - RSC 2018</h1>
               <small>Organized by WCE ACM Student Chapter <br/>National  Level Event By Department of Computer Science & Engineering</small>
             </a>
           </div>
@@ -343,6 +349,7 @@
     </div>
     <!-- End Page Banner -->
       <!-- Start Content -->
+<br>
     <div id="content">
       <div class="container">
         <div class="page-content">
@@ -351,14 +358,16 @@
              <div class="row">
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
-                <h3><a href="RSC-Schedule2017.pdf" target="_blank">Click Here </a> to view the event schedule of WCE RSC 2017</h3>
+                <!--<h3><a href="RSC-Schedule2018.pdf" target="_blank">Click Here </a> to view the event schedule of WCE RSC 2018</h3>
+              -->
+                <h3>Yet to be declared. Stay tuned for further updates.</h3>
               </div>
                 </div>
             </div>
             <!--div class="row">
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
-                <h3><a href="criteria.pdf" target="_blank">Click Here </a> to view the evaluation criteria of WCE RSC 2017</h3>
+                <h3><a href="criteria.pdf" target="_blank">Click Here </a> to view the evaluation criteria of WCE RSC 2018</h3>
               </div>
                 </div>
             </div-->
@@ -490,16 +499,15 @@
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2017 is the 2nd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+              <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+              <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
               <ul>
-                <li><span>Phone Number:</span> +91 94 23 872 296 </li>
-                <li><span>Email:</span> chair.rsc@walchandsangli.ac.in</li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
+                <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
+                <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
+                <li><span>Website:</span> http://rsc.wce.ac.in</li>
               </ul>
             </div>
-          </div>
-          <!-- .col-md-3 -->
+          </div>          <!-- .col-md-3 -->
           <!-- End Contact Widget -->
 
 
@@ -510,7 +518,7 @@
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy; 2017 WCE Research Symposium on Computing - All Rights Reserved <br/>
+              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
                 Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
             </div>
             <div class="col-md-6">

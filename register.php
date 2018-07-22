@@ -363,7 +363,7 @@ require_once("./include/acm_membership_config.php");
         <div class="row">
           <div class="col-md-6">
             <h2>Event Registration</h2>
-            <p>Registration for RSC 2017</p>
+            <p>Registration for RSC 2018</p>
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
@@ -391,7 +391,7 @@ require_once("./include/acm_membership_config.php");
                <div class="row">
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
-                <h3>Registration for attending the conference will be through our own portal. Please sign up with our RSC 2017 account and go to your profile to know more about the registration procedure.  </h3>
+                <h3>Registration for attending the conference will be through our own portal. Please sign up with our RSC 2018 account and go to your profile to know more about the registration procedure.  </h3>
               </div>
                 </div>
             </div>
@@ -526,12 +526,12 @@ require_once("./include/acm_membership_config.php");
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2017 is the 2nd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+              <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+              <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
               <ul>
                 <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
                 <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
+                <li><span>Website:</span> http://rsc.wce.ac.in</li>
               </ul>
             </div>
           </div>
@@ -546,7 +546,7 @@ require_once("./include/acm_membership_config.php");
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy; 2017 WCE Research Symposium on Computing - All Rights Reserved <br/>
+              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
                 Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
             </div>
             <div class="col-md-6">

@@ -4,21 +4,21 @@ require_once("./include/acm_membership_config.php");
 
 if(isset($_GET['ref_id']))
 { 
-    $ref_id = $_GET['ref_id'];
-    if($ref_id>2)
-    {
-      header("Location: error.php");
-    }
+  $ref_id = $_GET['ref_id'];
+  if($ref_id>2)
+  {
+    header("Location: error.php");
+  }
 
 }
 
 if($ref_id==1)
 {
-    $ref_name = "Organising Committee";
+  $ref_name = "Organising Committee";
 }
 if($ref_id==2)
 {
-    $ref_name = "Advisory Committee";
+  $ref_name = "Advisory Committee";
 }
 
 ?>
@@ -105,16 +105,16 @@ if($ref_id==2)
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-85671004-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-85671004-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 </head>
 
 <body style="background: url(images/patterns/5.png) repeat;">
@@ -199,87 +199,87 @@ if($ref_id==2)
             </div>
             <!-- End Search -->
             <!-- Start Navigation List -->
-                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:2%;" >
-       
-            <ul class="nav navbar-nav" >
-              <li>
-                <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
-              </li>
-              <li>
-                <a href="#" ><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
-                <ul class="dropdown">
-                  <li><a href="call_for.php" class="active">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
-                  </li>
-                  <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
-                  </li>
-                  <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
-                  </li>
-                  <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#" ><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
-                <ul class="dropdown">
-                  <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
-                  </li>
-                   <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
-                  </li> 
-                  <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
-                  </li>
-                  <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                  <li><a href="register.php">Event Registration<span class="pull-right"><i class="fa fa-edit"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-              <li><a href="#" class="active"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
-                <ul class="dropdown">
-                  <li><a href="committee.php?ref_id=1" <?php if($ref_id == 1) { ?> class="active" <?php } ?>>Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                  <li><a href="committee.php?ref_id=2" <?php if($ref_id == 2) { ?> class="active" <?php } ?>>Advisory Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
-                <ul class="dropdown">
-                  <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
-                  </li>
-             
-                  <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
-                  </li>
-             
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:2%;" >
 
-                  <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-
-             <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
-              </li>
-             <li><a href="about.php"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
-              </li>
-              <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
-              </li>
-               <?php if($acm->CheckLogin()){ 
-              
-                ?>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
-                <ul class="dropdown">
-                  <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
-                  </li>
-                  <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
-                  </li>
-                  <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
-                  </li>
+              <ul class="nav navbar-nav" >
+                <li>
+                  <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+                </li>
+                <li>
+                  <a href="#" ><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
+                  <ul class="dropdown">
+                    <li><a href="call_for.php" class="active">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
+                    </li>
+                    <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
+                    </li>
+                    <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
+                    </li>
+                    <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+                    </li>
                   </ul>
-              </li>
-              <?php } else{ ?>
-              <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
-              </li>
-              <?php } ?>
-            </ul>
+                </li>
+                <li><a href="#" ><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
+                  <ul class="dropdown">
+                    <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
+                    </li>
+                    <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
+                    </li> 
+                    <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
+                    </li>
+                    <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+                    </li>
+                    <li><a href="register.php">Event Registration<span class="pull-right"><i class="fa fa-edit"></i></span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#" class="active"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
+                  <ul class="dropdown">
+                    <li><a href="committee.php?ref_id=1" <?php if($ref_id == 1) { ?> class="active" <?php } ?>>Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+                    </li>
+
+                    <li><a href="committee.php?ref_id=2" <?php if($ref_id == 2) { ?> class="active" <?php } ?>>Advisory Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
+                  <ul class="dropdown">
+                    <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
+                    </li>
+
+                    <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
+                    </li>
+
+
+                    <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+                </li>
+                <li><a href="about.php"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+                </li>
+                <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+                </li>
+                <?php if($acm->CheckLogin()){ 
+
+                  ?>
+                  <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
+                    <ul class="dropdown">
+                      <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
+                      </li>
+                      <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
+                      </li>
+                      <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
+                      </li>
+                    </ul>
+                  </li>
+                <?php } else{ ?>
+                  <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
+                  </li>
+                <?php } ?>
+              </ul>
             </div>
             <!-- End Navigation List -->
           </div>
@@ -287,84 +287,84 @@ if($ref_id==2)
 
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
-              <li>
-                <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+          <li>
+            <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+          </li>
+          <li>
+            <a href="#" ><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
+            <ul class="dropdown">
+              <li><a href="call_for.php" class="active">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
               </li>
-              <li>
-                <a href="#" ><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
-                <ul class="dropdown">
-                  <li><a href="call_for.php" class="active">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
-                  </li>
-                  <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
-                  </li>
-                  <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
-                  </li>
-                  <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
+              <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
               </li>
-              <li><a href="#" ><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
-                <ul class="dropdown">
-                  <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
-                  </li>
-                   <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
-                  </li> 
-                  <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
-                  </li>
-                  <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                  <li><a href="register.php">Event Registration<span class="pull-right"><i class="fa fa-edit"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-              <li><a href="#" class="active"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
-                <ul class="dropdown">
-                  <li><a href="committee.php?ref_id=1" <?php if($ref_id == 1) { ?> class="active" <?php } ?>>Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                  <li><a href="committee.php?ref_id=2" <?php if($ref_id == 2) { ?> class="active" <?php } ?>>Advisory Committee Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
-                <ul class="dropdown">
-                  <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
-                  </li>
-             
-                  <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
-                  </li>
-             
+              <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
+              </li>
+              <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#" ><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
+            <ul class="dropdown">
+              <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
+              </li>
+              <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
+              </li> 
+              <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
+              </li>
+              <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+              </li>
+              <li><a href="register.php">Event Registration<span class="pull-right"><i class="fa fa-edit"></i></span></a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#" class="active"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
+            <ul class="dropdown">
+              <li><a href="committee.php?ref_id=1" <?php if($ref_id == 1) { ?> class="active" <?php } ?>>Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+              </li>
 
-                  <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
-                  </li>
-                </ul>
-             </li>
+              <li><a href="committee.php?ref_id=2" <?php if($ref_id == 2) { ?> class="active" <?php } ?>>Advisory Committee Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+              </li>
 
-             <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+            </ul>
+          </li>
+          <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
+            <ul class="dropdown">
+              <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
               </li>
-             <li><a href="about.php"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+
+              <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
               </li>
-              <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+
+
+              <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
               </li>
-               <?php if($acm->CheckLogin()){ 
-              
-                ?>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
-                <ul class="dropdown">
-                  <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
-                  </li>
-                  <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
-                  </li>
-                  <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
-                  </li>
-                  </ul>
-              </li>
-              <?php } else{ ?>
-              <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
-              </li>
-              <?php } ?>
-            
+            </ul>
+          </li>
+
+          <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+          </li>
+          <li><a href="about.php"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+          </li>
+          <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+          </li>
+          <?php if($acm->CheckLogin()){ 
+
+            ?>
+            <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
+              <ul class="dropdown">
+                <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
+                </li>
+                <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
+                </li>
+                <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
+                </li>
+              </ul>
+            </li>
+          <?php } else{ ?>
+            <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
+            </li>
+          <?php } ?>
+
         </ul>
         <!-- Mobile Menu End -->
 
@@ -387,274 +387,179 @@ if($ref_id==2)
               <li><a href="index.php">Home</a></li>
               <li><b>Organisation</b></li> 
               <li><?php echo $ref_name; ?></li>          
-              </ul>
+            </ul>
           </div>
         </div>
       </div>
     </div>
     <!-- End Page Banner -->
-      <!-- Start Content -->
-     <div id="content">
+    <!-- Start Content -->
+    <div id="content">
       <div class="container">
         <?php if($ref_id ==1)
         { 
 
           ?>
-        <table class="table table-responsive table-condensed table-bordered">
-          
-            <th>Sr.No.</th>
-            <th>Name</th>
-            <th>Designation</th>
-          <tr>
-            <td>
-              1
-            </td>
-            <td>
-              Dr.P.J.Kulkarni
-            </td>
+          <table class="table table-responsive table-condensed table-bordered">
+            <thead>
+              <th>Sr.No.</th>
+              <th>Role</th>
+              <th>Name</th>
+              <th>Designation</th>
+            </thead>
+            <tr>
+              <td>1</td>
+              <td>Symposium Patron</td>
+              <td>Prof. G.V. Parishwad<br>Prof. S.S. Thakur</td>
+              <td>Director Walchand College of Engineering, Sangli.<br> Principal Jabalpur College of Engineering, Jabalpur</td>
+            </tr>
 
-            <td>
-              Professor - Department of Computer Science &amp; Engineering,<br/>
-              Deputy Director - Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-          <tr>
-            <td>
-              2
-            </td>
-            <td>
-              Dr.B.F.Momin
-            </td>
+            <tr>
+              <td>2</td>
+              <td>Chair of the Symposium</td>
+              <td>Dr. P.J. Kulkarni</td>
+              <td>Department of Computer Science and Engineering, WCE</td>
+            </tr>
 
-            <td>
-              Head of Department - Department of Computer Science &amp; Engineering,<br/>Associate Professor - Department of Computer Science &amp; Engineering,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
+            <tr>
+              <td>3</td>
+              <td>Convener</td>
+              <td>M.A. Shah</td>
+              <td>Department of Computer Science and Engineering, WCE</td>
+            </tr>
 
-         <tr>
-            <td>
-              3
-            </td>
-            <td>
-              Dr.S.P.Sonawane
-            </td>
+            <tr>
+              <td>4</td>
+              <td>Local Organizing Committee</td>
+              <td>Dr. B F Momin<br>
+                Dr. S P Sonavane<br>
+                Dr. D B Kulkarni<br>
+                Dr. A.J. Umbarkar<br>
+                Dr. R.R. Rathod<br>
+                Mr. A R Surve<br>
+                Mr. M K Chavan<br>
+                Mr. N L Gavankar<br>
+                Mr. U.B. Chavan<br>
+                Mrs. B.S. Shetty<br>
+                Mr. N.B. Narnaware<br>
+              </td>
+              <td>
+                H.O.D, Department of Computer Science and Engineering, WCE<br>
+                H.O.D, Department of Information Technology, WCE<br>
+                Department of Information Technology, WCE<br>
+                Department of Information Technology, WCE<br>
+                Department of Information Technology, WCE<br>
+                Department of Computer Science and Engineering, WCE<br>
+                Department of Computer Science and Engineering, WCE<br>
+                Department of Computer Science and Engineering, WCE<br>
+                Department of Information Technology, WCE<br>
+                Department of Information Technology, WCE<br>
+                Department of Information Technology, WCE<br>
+              </td>
+            </tr>
 
-            <td>
-              Head of Department - Department of Information Technology,<br/>Associate Professor, Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              4
-            </td>
-            <td>
-              Dr.D.B.Kulkarni
-            </td>
-
-            <td>
-              Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-          
-          <tr>
-            <td>
-              5
-            </td>
-            <td>
-              Dr.S.H.Bhadari
-            </td>
-
-            <td>
-              Associate Professor - Department of Computer Science &amp; Engineering,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-
-         <tr>
-            <td>
-              6
-            </td>
-            <td>
-              Prof. A.R.Surve
-            </td>
-
-            <td>
-              Assistant Professor - Department of Computer Science &amp; Engineering,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-
-         <tr>
-            <td>
-              7
-            </td>
-            <td>
-              Prof. M.A.Shah
-            </td>
-
-            <td>
-              Assistant Professor - Department of Computer Science &amp; Engineering,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-        
-           <tr>
-            <td>
-              8
-            </td>
-            <td>
-              Prof. M.K.Chavan
-            </td>
-
-            <td>
-              Assistant Professor - Department of Computer Science &amp; Engineering,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-        
-           <tr>
-            <td>
-              9
-            </td>
-            <td>
-              Dr. A.J.Umbarkar
-            </td>
-
-            <td>
-              Assistant Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>        
-        
-           <tr>
-            <td>
-              10
-            </td>
-            <td>
-              Dr. Dr. R.R.Rathod
-            </td>
-
-            <td>
-              Assistant Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-        
-           <tr>
-            <td>
-              11
-            </td>
-            <td>
-              Prof. U.B.Chavan
-            </td>
-
-            <td>
-              Assistant Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-
-        
-           <tr>
-            <td>
-              12
-            </td>
-            <td>
-              Prof.M.B.Narnaware
-            </td>
-
-            <td>
-              Assistant Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-
-        
-           <tr>
-            <td>
-              13
-            </td>
-            <td>
-              Prof.Mrs.B.B.Shetty
-            </td>
-
-            <td>
-              Assistant Professor - Department of Information Technology,<br/> Walchand College of Engineering, Sangli
-            </td>
-          </tr>
-
-
-        </table>
+          </table>
         <?php  } ?>
         <?php if($ref_id == 2)
         {
           ?>
-             <div class="row">
+          <div class="row">
             <div class="col-sm-12">
-<table class="table table-responsive table-condensed table-bordered">
-          
-            <th>Sr.No.</th>
-            <th>Name</th>
-          <tr>
-            <td>
-              1
-            </td>
-            <td>
-              Dr. Aditya Abhyankar (SPPU) Pune
-            </td>
-          </tr>
-          <tr>
-            <td>
-              2
-            </td>
-            <td>
-              Dr. Rajesh Ingle (PICT) Pune
-            </td>
-          </tr>
-          <tr>
-            <td>
-              3
-            </td>
-            <td>
-              Dr. S G Bhirud (VJTI) Mumbai
-            </td>
-          </tr>
-          <tr>
-            <td>
-              4
-            </td>
-            <td>
-              Dr. D H Rao Bangalore
-            </td>
-          </tr>
-          <tr>
-            <td>
-              5
-            </td>
-            <td>
-              Dr. Shailaja Shukla (JEC) Jabalpur
-            </td>
-          </tr>
-          <tr>
-            <td>
-              6
-            </td>
-            <td>
-              Dr. U P Kulkarni (SDM) Dharwad
-            </td>
-          </tr>
-          <tr>
-            <td>
-              7
-            </td>
-            <td>
-              Dr. R K Kamat (SUK) Kolhapur
-            </td>
-          </tr>
-          <tr>
-            <td>
-              8
-            </td>
-            <td>
-              Dr. V B Dharmadhikari (WCE) Sangli
-            </td>
-          </tr>
-</table>
-                </div>
+              <table class="table table-responsive table-condensed table-bordered">
+
+                <th>Sr.No.</th>
+                <th>Name</th>
+                <tr>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    Dr. Brijesh Iyer (BATU), Lonere
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    2
+                  </td>
+                  <td>
+                    Dr. Aditya Abhyankar (SPPU), Pune
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    Dr. Rajesh Ingle (PICT), Pune
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    4
+                  </td>
+                  <td>
+                    Dr. Venkateswaran (Persistent), Pune
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    5
+                  </td>
+                  <td>
+                    Dr. R. B. Kulkarni (COE), Karad
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    6
+                  </td>
+                  <td>
+                    Dr. S G Bhirud (VJTI), Mumbai
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    7
+                  </td>
+                  <td>
+                    Dr. Meghshyam Prasad (Videoken), Banglore
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    8
+                  </td>
+                  <td>
+                    Dr. Shailja Shukla (JEC), Jabalpur
+                  </td>
+                </tr>
+               <tr>
+                  <td>
+                    9
+                  </td>
+                  <td>
+                    Dr. U P Kulkarni (SDM), Dharwad
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    10
+                  </td>
+                  <td>
+                    Dr. R K Kamat (SUK), Kolhapur
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    11
+                  </td>
+                  <td>
+                    Dr. V B Dharmadhikari (WCE), Sangli
+                  </td>
+                </tr>
+              </table>
             </div>
+          </div>
 
           <?php 
         } ?>
@@ -716,7 +621,7 @@ if($ref_id==2)
                   <a href="contact.php">Contact Us </a>
                 </li>
                 <li>
-                <a href="terms.php">Terms of Use</a>
+                  <a href="terms.php">Terms of Use</a>
                 </li>
               </ul>
             </div>
@@ -730,82 +635,82 @@ if($ref_id==2)
             <div class="footer-widget flickr-widget">
               <h4>External Links<span class="head-line"></span></h4>
               <ul class="flickr-list">
-                       <?PHP
-        $sql = "select * from external_links where status='1' limit 0,9";
-        $result = mysqli_query($conn, $sql);
-        if(mysqli_num_rows($result)>0){
-        while($row = mysqli_fetch_assoc($result))
-        { ?>
-                <li>
-                  <a href="<?php echo $row['ext_link'];?>" class="lightbox">
-                    <img alt="<?php echo $row['link_name'];?>" src="<?php echo $row['image_link'];?>">
-                  </a>
-                </li>
-                <?php } } ?>
-              </ul>
+               <?PHP
+               $sql = "select * from external_links where status='1' limit 0,9";
+               $result = mysqli_query($conn, $sql);
+               if(mysqli_num_rows($result)>0){
+                while($row = mysqli_fetch_assoc($result))
+                  { ?>
+                    <li>
+                      <a href="<?php echo $row['ext_link'];?>" class="lightbox">
+                        <img alt="<?php echo $row['link_name'];?>" src="<?php echo $row['image_link'];?>">
+                      </a>
+                    </li>
+                  <?php } } ?>
+                </ul>
+              </div>
             </div>
+            <!-- .col-md-3 -->
+            <!-- End Flickr Widget -->
+
+
+            <!-- Start Contact Widget -->
+            <div class="col-md-3">
+              <div class="footer-widget contact-widget">
+                <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+                <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+                <ul>
+                  <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
+                  <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
+                  <li><span>Website:</span> http://rsc.wce.ac.in</li>
+                </ul>
+              </div>
+            </div>
+            <!-- .col-md-3 -->
+            <!-- End Contact Widget -->
+
+
           </div>
-          <!-- .col-md-3 -->
-          <!-- End Flickr Widget -->
+          <!-- row -->
 
-
-          <!-- Start Contact Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2018 is the 2nd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
-              <ul>
-                <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
-                <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
-              </ul>
+          <!-- Start Copyright -->
+          <div class="copyright-section">
+            <div class="row">
+              <div class="col-md-6">
+                <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
+                  Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
+                </div>
+                <div class="col-md-6">
+                  <ul class="footer-nav">
+                    <li><a href="sitemap.php">Sitemap</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <!-- End Copyright -->
+
           </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
-        </div>
-        <!-- row -->
-
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
-                Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
-            </div>
-            <div class="col-md-6">
-              <ul class="footer-nav">
-                <li><a href="sitemap.php">Sitemap</a></li>
-                <li><a href="privacy.php">Privacy Policy</a></li>
-                <li><a href="contact.php">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- End Copyright -->
+        </footer>
+        <!-- End Footer -->
 
       </div>
-    </footer>
-    <!-- End Footer -->
+      <!-- End Container -->
 
-  </div>
-  <!-- End Container -->
+      <!-- Go To Top Link -->
+      <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-  <!-- Go To Top Link -->
-  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+      <script type="text/javascript" src="js/script.js"></script>
+      <script>
+        function showResult(str) {
+          if (str.length==0) {
+            document.getElementById("livesearch").innerHTML="";
+            document.getElementById("livesearch").style.border="0px";
 
-  <script type="text/javascript" src="js/script.js"></script>
-  <script>
-  function showResult(str) {
-  if (str.length==0) {
-    document.getElementById("livesearch").innerHTML="";
-    document.getElementById("livesearch").style.border="0px";
-    
-    return;
-  }
-  if (window.XMLHttpRequest) {
+            return;
+          }
+          if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
   } else {  // code for IE6, IE5
@@ -822,12 +727,12 @@ if($ref_id==2)
   }
   xmlhttp.open("GET","livesearch.php?q="+str,true);
   xmlhttp.send();
-  }
+}
 
 
-  function subscribe()
-  {
-     if (window.XMLHttpRequest) {
+function subscribe()
+{
+ if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
   } 
@@ -838,21 +743,21 @@ if($ref_id==2)
   xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {  
 
-        document.getElementById("subscribeResponse").innerHTML = xmlhttp.responseText;
+      document.getElementById("subscribeResponse").innerHTML = xmlhttp.responseText;
     }
   }
   var email = document.getElementById("txtEmail").value;
   if(email =="")
   {
-       document.getElementById("subscribeResponse").innerHTML = "Email Cannot Be Empty!"; 
-  }
-  else
-  {
+   document.getElementById("subscribeResponse").innerHTML = "Email Cannot Be Empty!"; 
+ }
+ else
+ {
   xmlhttp.open("GET","subscribe.php?email="+email,true);
   xmlhttp.send();
-  }
-  }
-  </script>
+}
+}
+</script>
 </body>
 
 </html>

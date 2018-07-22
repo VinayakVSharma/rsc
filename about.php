@@ -85,16 +85,16 @@ require_once("./include/acm_membership_config.php");
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-85671004-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-85671004-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 </head>
 
 <body style="background: url(images/patterns/5.png) repeat;">
@@ -180,84 +180,84 @@ require_once("./include/acm_membership_config.php");
             <!-- End Search -->
             <!-- Start Navigation List -->
             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="margin-top:2%;" >
-            <ul class="nav navbar-nav" >
-              <li>
-                <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
-              </li>
-              <li>
-                <a href="#"><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
-                <ul class="dropdown">
-                  <li><a href="call_for.php">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
-                  </li>
-                  <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
-                  </li>
-                  <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
-                  </li>
-                  <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
-                <ul class="dropdown">
-                  <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
-                  </li>
-                   <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
-                  </li> 
-                  <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
-                  </li>
-                  <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
-                <ul class="dropdown">
-                  <li><a href="committee.php?ref_id=1"> Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                  <li><a href="committee.php?ref_id=2"> Technical Program Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
-                <ul class="dropdown">
-                  <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
-                  </li>
-             
-                  <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
-                  </li>
-             
-
-                  <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-
-             <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
-              </li>
-             <li><a href="about.php" class="active"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
-              </li>
-              <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
-              </li>
-               <?php if($acm->CheckLogin()){ 
-              
-                ?>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
-                <ul class="dropdown">
-                  <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
-                  </li>
-                  <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
-                  </li>
-                  <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
-                  </li>
+              <ul class="nav navbar-nav" >
+                <li>
+                  <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+                </li>
+                <li>
+                  <a href="#"><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
+                  <ul class="dropdown">
+                    <li><a href="call_for.php">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
+                    </li>
+                    <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
+                    </li>
+                    <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
+                    </li>
+                    <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+                    </li>
                   </ul>
-              </li>
-              <?php } else{ ?>
-              <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
-              </li>
-              <?php } ?>
+                </li>
+                <li><a href="#"><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
+                  <ul class="dropdown">
+                    <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
+                    </li>
+                    <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
+                    </li> 
+                    <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
+                    </li>
+                    <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
+                  <ul class="dropdown">
+                    <li><a href="committee.php?ref_id=1"> Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+                    </li>
+                    
+                    <li><a href="committee.php?ref_id=2"> Technical Program Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+                    </li>
+                    
+                  </ul>
+                </li>
+                <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
+                  <ul class="dropdown">
+                    <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
+                    </li>
+                    
+                    <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
+                    </li>
+                    
 
-            </ul>
+                    <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+                </li>
+                <li><a href="about.php" class="active"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+                </li>
+                <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+                </li>
+                <?php if($acm->CheckLogin()){ 
+                  
+                  ?>
+                  <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
+                    <ul class="dropdown">
+                      <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
+                      </li>
+                      <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
+                      </li>
+                      <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
+                      </li>
+                    </ul>
+                  </li>
+                <?php } else{ ?>
+                  <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
+                  </li>
+                <?php } ?>
+
+              </ul>
             </div>
             <!-- End Navigation List -->
           </div>
@@ -265,83 +265,83 @@ require_once("./include/acm_membership_config.php");
 
         <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
-              <li>
-                <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+          <li>
+            <a href="index.php"><span class="pull-left"><i class="fa fa-home"></i></span>&nbsp;&nbsp;Home</a>
+          </li>
+          <li>
+            <a href="#"><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
+            <ul class="dropdown">
+              <li><a href="call_for.php">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
               </li>
-              <li>
-                <a href="#"><span class="pull-left"><i class="fa fa-group"></i></span>&nbsp;&nbsp;Authors</a>
-                <ul class="dropdown">
-                  <li><a href="call_for.php">Call for Contributions <span class="pull-right"><i class="fa fa-bullhorn"></i></span></a>
-                  </li>
-                  <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
-                  </li>
-                  <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
-                  </li>
-                  <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
+              <li><a href="instructions.php">Presentation <br/> Instructions <span class="pull-right"><i class="fa fa-info-circle"></i></span></a>
               </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
-                <ul class="dropdown">
-                  <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
-                  </li>
-                   <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
-                  </li> 
-                  <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
-                  </li>
-                  <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
-                <ul class="dropdown">
-                  <li><a href="committee.php?ref_id=1"> Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                  <li><a href="committee.php?ref_id=2"> Technical Program Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
-                  </li>
-             
-                </ul>
-             </li>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
-                <ul class="dropdown">
-                  <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
-                  </li>
-             
-                  <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
-                  </li>
-             
-
-                  <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
-                  </li>
-                </ul>
-             </li>
-
-             <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+              <li><a href="submission.php">Paper Submission <span class="pull-right"><i class="fa fa-upload"></i></span></a>
               </li>
-             <li><a href="about.php" class="active"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+              <li><a href="dates.php">Important Dates<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
               </li>
-              <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+            </ul>
+          </li>
+          <li><a href="#"><span class="pull-left"><i class="fa fa-calendar-check-o"></i></span>&nbsp;&nbsp;Programs</a>
+            <ul class="dropdown">
+              <li><a href="keynotes.php">Keynotes &amp; Awards Presentation<span class="pull-right"><i class="fa fa-microphone"></i></span></a>
               </li>
-                                   <?php if($acm->CheckLogin()){ 
+              <li><a href="paper_presentation.php">Paper Presentation<span class="pull-right"><i class="fa fa-newspaper-o"></i></span></a>
+              </li> 
+              <li><a href="poster_presentation.php">Poster Presentation<span class="pull-right"><i class="fa fa-image"></i></span></a>
+              </li>
+              <li><a href="schedule.php">Event Schedule<span class="pull-right"><i class="fa fa-calendar"></i></span></a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#"><span class="pull-left"><i class="fa fa-sitemap"></i></span>&nbsp;&nbsp;Organisation</a>
+            <ul class="dropdown">
+              <li><a href="committee.php?ref_id=1"> Organising Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
+              </li>
               
-                ?>
-              <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
-                <ul class="dropdown">
-                  <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
-                  </li>
-                  <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
-                  </li>
-                  <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
-                  </li>
-                  </ul>
+              <li><a href="committee.php?ref_id=2"> Technical Program Committee<span class="pull-right"><i class="fa fa-group"></i></span></a>
               </li>
-              <?php } else{ ?>
-              <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
+              
+            </ul>
+          </li>
+          <li><a href="#"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;Local Information</a>
+            <ul class="dropdown">
+              <li><a href="venue.php">Conference Venue<span class="pull-right"><i class="fa fa-location-arrow"></i></span></a>
               </li>
-              <?php } ?>
+              
+              <li><a href="location.php">Conference Location<span class="pull-right"><i class="fa fa-map-marker"></i></span></a>
+              </li>
+              
 
+              <li><a href="accessing.php">Accessing Sangli<span class="pull-right"><i class="fa fa-plane"></i></span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
+          </li>
+          <li><a href="about.php" class="active"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
+          </li>
+          <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
+          </li>
+          <?php if($acm->CheckLogin()){ 
             
+            ?>
+            <li><a href="#"><span class="pull-left"><i class="fa fa-user"></i></span>&nbsp;&nbsp;<?php echo $acm->UserFullName(); ?></a>
+              <ul class="dropdown">
+                <li><a href="<?php echo $acm->UserRole();?>/index.php">Dashboard <span class="pull-right"><i class="fa fa-dashboard"></i></span></a>
+                </li>
+                <li><a href="<?php echo $acm->UserRole();?>/settings.php">Settings <span class="pull-right"><i class="fa fa-gears"></i></span></a>
+                </li>
+                <li><a href="login.php?logout=true">Logout <span class="pull-right"><i class="fa fa-sign-out"></i></span></a>
+                </li>
+              </ul>
+            </li>
+          <?php } else{ ?>
+            <li><a href="login.php"><span class="pull-left"><i class="fa fa-sign-in"></i></span>&nbsp;&nbsp;Login</a>
+            </li>
+          <?php } ?>
+
+          
         </ul>
         <!-- Mobile Menu End -->
 
@@ -370,11 +370,11 @@ require_once("./include/acm_membership_config.php");
       </div>
     </div>
     <!-- End Page Banner -->
-      <!-- Start Content -->
+    <!-- Start Content -->
     <div id="content">
       <div class="container">
         <div class="page-content">
-  <div class="row" style="text-align:justify;">
+          <div class="row" style="text-align:justify;">
 
             <div class="col-md-12">
 
@@ -382,161 +382,159 @@ require_once("./include/acm_membership_config.php");
               <h4 class="classic-title"><span>Welcome To WCE Research Symposium on Comoputing 2018</span></h4>
 
               <!-- Some Text -->
-     
-            <!-- Nav Tabs -->
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-award-1"></i>About Research Symposium</a></li>
-              <li><a href="#tab2" data-toggle="tab"><i class="icon-beaker"></i>About Walchand College of Engineering, Sangli</a></li>
-              <li><a href="#tab3" data-toggle="tab"><i class="icon-droplet"></i>About the Departments</a></li>
-            </ul>
+              
+              <!-- Nav Tabs -->
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-award-1"></i>About Research Symposium</a></li>
+                <li><a href="#tab2" data-toggle="tab"><i class="icon-beaker"></i>About Walchand College of Engineering, Sangli</a></li>
+                <li><a href="#tab3" data-toggle="tab"><i class="icon-droplet"></i>About the Departments</a></li>
+              </ul>
 
-            <!-- Tab Panels -->
-            <div class="tab-content">
-              <!-- Tab Content 1 -->
-              <div class="tab-pane fade in active" id="tab1">
-                <p>The Research Symposium on Computing 2018 is a two days national level research symposium and this will be jointly organized by Department of Computer Science and Engineering and Department of Information Technology at Walchand College of Engineering, Sangli during December 15-16, 2018. The main concept is to have a research symposium where 
-(a) The CSE / IT / Electronics academic research community come together, share their research potential and collaborate with each other for making the research outcome more impressive 
-(b) The prospective researchers listen to eminent speakers from academia and industry to discuss and collaborate on future research trends in computing
-(c) The researchers present their latest work in the symposium and get critical reviews on the research to enable further progress, and 
-(d) Like-minded researchers interact with distinguished other researchers on various research issues.
- </p>
+              <!-- Tab Panels -->
+              <div class="tab-content">
+                <!-- Tab Content 1 -->
+                <div class="tab-pane fade in active" id="tab1">
+                  <p><p>At Walchand College of Engineering (WCE) Sangli, Computer Science and Engineering (CSE) Department as well as Information Technology (IT) Department are active in promoting research in advances in CSE/ IT under Association for Computing Machinery (ACM) India. This has resulted into instituting WCE-ACM chapter. First and second National Research Symposium was organized during Dec 19-20, 2016 and Dec 15-16, 2017 respectively at WCE and it received excellent response from researchers.</p><br>
+                  <p> In this series, the WCE-ACM chapter is delighted to announce its third National Research Symposium on Computing (RSC 2018) in December 2018 under the technical support from ACM. This symposium has been considered as a co-located activity of International Conference on Computing in Engineering and Technology (ICCET 2019). The WCE-ACM chapter welcomes research paper submissions from faculty, doctoral students, research scholars and industry experts who are actively working in the area of Computer Science and Engineering and allied branches.</p><br>
+                  <p>The RSC 2018 will provide a unique opportunity to the researchers to present their research work and will enable them to interact with renowned and experienced researchers in all areas of Computer Science and Engineering as well as Information Technology. The symposium will also provide to its participants, independent and constructive feedback about their completed/planned research work for its further improvements. The research symposium aims at establishing and promoting social and intellectual interactions among students and researchers from academia and industry. The symposium will be accompanied by prominent experts who will deliver the keynote address and will actively participate in critical discussions at the symposium. The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE.</p><br>
+                </p>
               </div>
               <!-- Tab Content 2 -->
               <div class="tab-pane fade" id="tab2">
-                <p>In the year 1947, the college was founded in Sangli. Today the college runs six UG and 10 PG programmes. The college has been approved to run all of its UG and PG programmes under autonomy. Today, it has more than 2,800 students taking various courses in Engineering and Technology. We create opportunities not just for young minds to learn, but also for them to experience the fulfillment that comes from sharing this learning with others. At WCE, we are always focused on delivering education that helps to create leaders of tomorrow’s world. WCE students are not just successful in their individual capacities, but they contribute to and nurture the world they live in.</p>
+                <p> The college is situated midway of Sangli Miraj road. Initially, college made a modest beginning with the name as "New Engineering College" in the year 1947. As a part of the arrangements, mainly funded by Seth Walchand Hirachand Memorial Trust (WHMT) and the Government, the College has been renamed as Walchand College of Engineering (WCE) since year 1955. The College became autonomous in the year 2007. As a part of strategic planning, research and development activities are being further strengthened. The college has been recognized for running Ph.D. programme under Quality Improvement Program (QIP) scheme by AICTE. Presently it has more than 2,800 students for six UG branches and ten PG branches together. WCE aims to produce capable graduate engineers with aptitude for research and qualities of leadership. The has been selected and funded for implementation of Technical Education Quality Improvement Programme (TEQIP). Jabalpur Engineering College (JEC), Jabalpur is a government institute, and is participating in the organization of RSC-2018. </p>
               </div>
               <!-- Tab Content 1 -->
               <div class="tab-pane fade" id="tab3">
-                <p>The two departments were initially established with the introduction of undergraduate programmes (UG) in Computer Science and Engineering (CSE) with intake of 60 students and UG in Information Technology with intake of 60 students. At present, the departments run UG in CSE with intake of 90 and PG in CSE with intake of 30 students so also UG in IT with intake of 60 and PG in IT with intake of 18 students. These programmes focus on courses such as Theoretical Computer Science, Computer Communication, Database Engineering, Software Engineering, Operating Systems, Machine Learning, High Performance Computing and Computer Hardware. Syllabus contents of these courses are up-to-date and are in-line with the current trends of the Computer and IT Industry. Additional guidance is offered to students in specific areas in the field of Computer Engineering and Information Technology to enable the outgoing graduates to receive more justice to jobs assigned to them. The UG and PG programmes enjoy academic autonomy and they are affiliated to Shivaji University Kolhapur. PhD programme under AICTE’s quality Improvement Programme (QIP) in the CSE department has boosted the research culture further. The department also provides research guidance to PhD students of Shivaji University. Many researchers have completed their PhD research work at the department. At present, totally, 20 PhD (CSE) students are successfully progressing their research assignments.</p>
-              </div>
+              The CSE and IT Departments have been established in the year 1986 and 2001 respectively. Course contents of these programmes are up-to-date and are in-line with the current trends of the Computer and IT Industry. These programmes attract meritorious students every year at the entry level for both UG and PG level. Ph.D. programme under (QIP) in the department has boosted the research culture further. These departments also provide research guidance to Ph.D. students of Shivaji University. At present, around 20 Ph.D. (CSE) students are successfully progressing their research assignments. WCE Association for Computing Machinery (ACM) Student Chapter has been chartered to promote research in CSE/IT and related fields. </p>
             </div>
-
-
-               </div>
-
-            
-
           </div>
 
-          <!-- Divider -->
-          <div class="hr1" style="margin-bottom:50px;"></div>
 
         </div>
+
+        
+
       </div>
+
+      <!-- Divider -->
+      <div class="hr1" style="margin-bottom:50px;"></div>
+
     </div>
-    <!-- End content -->
+  </div>
+</div>
+<!-- End content -->
 
-    <!-- Start Footer -->
-    <footer>
-      <div class="container">
-        <div class="row footer-widgets">
+<!-- Start Footer -->
+<footer>
+  <div class="container">
+    <div class="row footer-widgets">
 
-          <!-- Start Subscribe & Social Links Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Subscribe to our forum to stay tuned for the latest updates related to <b>WCE Research Symposium on Computing!</b></p>
-              <form class="subscribe">
-                <input type="email" class="email" id="txtEmail" placeholder="mail@example.com">
-                <a href="#subscribe" class="btn btn-lg btn-system" onclick="subscribe()">Subscribe</a>
-              </form>
-              <div id="subscribeResponse"></div>
-            </div>
-            <div class="footer-widget social-widget">
-              <h4>Follow Us<span class="head-line"></span></h4>
-              <ul class="social-icons">
-                <li>
-                  <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Subscribe & Social Links Widget -->
-
-
-          <!-- Start Twitter Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget twitter-widget">
-              <h4>Quick Links<span class="head-line"></span></h4>
-              <ul>
-                <li>
-                  <a href="about.php">About Us </a>
-                </li>
-                <li>
-                  <a href="contact.php">Contact Us </a>
-                </li>
-                <li>
-                <a href="terms.php">Terms of Use</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Twitter Widget -->
+      <!-- Start Subscribe & Social Links Widget -->
+      <div class="col-md-3">
+        <div class="footer-widget mail-subscribe-widget">
+          <h4>Get in touch<span class="head-line"></span></h4>
+          <p>Subscribe to our forum to stay tuned for the latest updates related to <b>WCE Research Symposium on Computing!</b></p>
+          <form class="subscribe">
+            <input type="email" class="email" id="txtEmail" placeholder="mail@example.com">
+            <a href="#subscribe" class="btn btn-lg btn-system" onclick="subscribe()">Subscribe</a>
+          </form>
+          <div id="subscribeResponse"></div>
+        </div>
+        <div class="footer-widget social-widget">
+          <h4>Follow Us<span class="head-line"></span></h4>
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a class="google" href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- .col-md-3 -->
+      <!-- End Subscribe & Social Links Widget -->
 
 
-          <!-- Start Flickr Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget flickr-widget">
-              <h4>External Links<span class="head-line"></span></h4>
-              <ul class="flickr-list">
-                       <?PHP
-        $sql = "select * from external_links where status='1' limit 0,9";
-        $result = mysqli_query($conn, $sql);
-        if(mysqli_num_rows($result)>0){
-        while($row = mysqli_fetch_assoc($result))
-        { ?>
+      <!-- Start Twitter Widget -->
+      <div class="col-md-3">
+        <div class="footer-widget twitter-widget">
+          <h4>Quick Links<span class="head-line"></span></h4>
+          <ul>
+            <li>
+              <a href="about.php">About Us </a>
+            </li>
+            <li>
+              <a href="contact.php">Contact Us </a>
+            </li>
+            <li>
+              <a href="terms.php">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- .col-md-3 -->
+      <!-- End Twitter Widget -->
+
+
+      <!-- Start Flickr Widget -->
+      <div class="col-md-3">
+        <div class="footer-widget flickr-widget">
+          <h4>External Links<span class="head-line"></span></h4>
+          <ul class="flickr-list">
+           <?PHP
+           $sql = "select * from external_links where status='1' limit 0,9";
+           $result = mysqli_query($conn, $sql);
+           if(mysqli_num_rows($result)>0){
+            while($row = mysqli_fetch_assoc($result))
+              { ?>
                 <li>
                   <a href="<?php echo $row['ext_link'];?>" class="lightbox">
                     <img alt="<?php echo $row['link_name'];?>" src="<?php echo $row['image_link'];?>">
                   </a>
                 </li>
-                <?php } } ?>
-              </ul>
-            </div>
+              <?php } } ?>
+            </ul>
           </div>
-          <!-- .col-md-3 -->
-          <!-- End Flickr Widget -->
-
-
-          <!-- Start Contact Widget -->
-          <div class="col-md-3">
-            <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2018 is the 2nd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
-              <ul>
-                <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
-                <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
-              </ul>
-            </div>
-          </div>
-          <!-- .col-md-3 -->
-          <!-- End Contact Widget -->
-
-
         </div>
-        <!-- row -->
+        <!-- .col-md-3 -->
+        <!-- End Flickr Widget -->
 
-        <!-- Start Copyright -->
-        <div class="copyright-section">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
-                Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
+
+        <!-- Start Contact Widget -->
+        <div class="col-md-3">
+          <div class="footer-widget contact-widget">
+            <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+            <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+            <ul>
+              <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
+              <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
+              <li><span>Website:</span> http://rsc.wce.ac.in</li>
+            </ul>
+          </div>
+        </div>
+        <!-- .col-md-3 -->
+        <!-- End Contact Widget -->
+
+
+      </div>
+      <!-- row -->
+
+      <!-- Start Copyright -->
+      <div class="copyright-section">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
+              Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
             </div>
             <div class="col-md-6">
               <ul class="footer-nav">
@@ -561,14 +559,14 @@ require_once("./include/acm_membership_config.php");
 
   <script type="text/javascript" src="js/script.js"></script>
   <script>
-  function showResult(str) {
-  if (str.length==0) {
-    document.getElementById("livesearch").innerHTML="";
-    document.getElementById("livesearch").style.border="0px";
-    
-    return;
-  }
-  if (window.XMLHttpRequest) {
+    function showResult(str) {
+      if (str.length==0) {
+        document.getElementById("livesearch").innerHTML="";
+        document.getElementById("livesearch").style.border="0px";
+        
+        return;
+      }
+      if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
   } else {  // code for IE6, IE5
@@ -585,12 +583,12 @@ require_once("./include/acm_membership_config.php");
   }
   xmlhttp.open("GET","livesearch.php?q="+str,true);
   xmlhttp.send();
-  }
+}
 
 
-  function subscribe()
-  {
-     if (window.XMLHttpRequest) {
+function subscribe()
+{
+ if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
   } 
@@ -601,21 +599,21 @@ require_once("./include/acm_membership_config.php");
   xmlhttp.onreadystatechange=function() {
     if (xmlhttp.readyState==4 && xmlhttp.status==200) {  
 
-        document.getElementById("subscribeResponse").innerHTML = xmlhttp.responseText;
+      document.getElementById("subscribeResponse").innerHTML = xmlhttp.responseText;
     }
   }
   var email = document.getElementById("txtEmail").value;
   if(email =="")
   {
-       document.getElementById("subscribeResponse").innerHTML = "Email Cannot Be Empty!"; 
-  }
-  else
-  {
+   document.getElementById("subscribeResponse").innerHTML = "Email Cannot Be Empty!"; 
+ }
+ else
+ {
   xmlhttp.open("GET","subscribe.php?email="+email,true);
   xmlhttp.send();
-  }
-  }
-  </script>
+}
+}
+</script>
 </body>
 
 </html>
