@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<pages>
+	<link>
+		<title>Latest News</title>
+		<url>news.php</url>
+	</link>
+
+	<link>
+		<title>Contact Us</title>
+		<url>contact.php</url>
+	</link>
+
+
+	<link>
+		<title>About Us</title>
+		<url>about.php</url>
+	</link>
+
+
+	<link>
+		<title>Gallery</title>
+		<url>gallery.php</url>
+	</link>
+
+
+	<link>
+		<title>Blog</title>
+		<url>blog.php</url>
+	</link>
+
+
+	<link>
+		<title>Sitemap</title>
+		<url>sitemap.php</url>
+	</link>
+
+	<link>
+		<title>Privacy Policy</title>
+		<url>privacy.php</url>
+	</link>
+
+	<link>
+		<title>Call For Contributions</title>
+		<url>call_for.php</url>
+	</link>
+
+	<link>
+		<title>Presentation Instructions</title>
+		<url>instructions.php</url>
+	</link>
+	<link>
+		<title>Important Dates</title>
+		<url>dates.php</url>
+	</link>
+	<link>
+		<title>Paper Submission</title>
+		<url>submission.php</url>
+	</link>
+	<link>
+		<title>Keynotes &amp; Awards Presentation </title>
+		<url>keynotes.php</url>
+	</link>
+
+	<link>
+		<title>Paper Presentation </title>
+		<url>paper_presentation.php</url>
+	</link>
+	<link>
+		<title>Poster Presentation </title>
+		<url>poster_presentation.php</url>
+	</link>
+	<link>
+		<title>Keynotes &amp; Organising Commmittee </title>
+		<url>http://rs.cbainc.in/committee.php?ref_id=1</url>
+	</link>
+	<link>
+		<title>Keynotes &amp; Technical Committee</title>
+		<url>http://rs.cbainc.in/committee.php?ref_id=1</url>
+	</link>
+	<link>
+		<title>Conference Venue </title>
+		<url>venue.php</url>
+	</link>
+	<link>
+		<title>Conference Location</title>
+		<url>location.php</url>
+	</link>
+	<link>
+		<title>Accessing Sangli </title>
+		<url>accessing.php</url>
+	</link>
+	<link>
+		<title>Registration </title>
+		<url>register.php</url>
+	</link>
+	
+</pages>
