@@ -46,8 +46,8 @@ if($acm->CheckLogin())
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Page Description and Author -->
-  <meta name="description" content="National Research Symposium is a two day national level research symposium organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli during 19-20 December 2016." />
-  <meta name="keywords" content="National Research Symposium on Computing, RSC 2016, Research Symposium,Walchand College of Engineering, WCE Sangli, Computing, Department of Computer Science &amp; Engineering, TEQIP-II, WCE ACM Student Chapter" />
+  <meta name="description" content="National Research Symposium is a two day national level research symposium organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli during 19-20 December 2018." />
+  <meta name="keywords" content="National Research Symposium on Computing, RSC 2018, Research Symposium,Walchand College of Engineering, WCE Sangli, Computing, Department of Computer Science &amp; Engineering, TEQIP-II, WCE ACM Student Chapter" />
 
   <meta name="author" content="Harshal Khairnar - CBA Solutions" />
 
@@ -413,7 +413,7 @@ if($acm->CheckLogin())
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
                 <button class="close" aria-hidden="true" type="button" data-dismiss="alert">×</button>
-                <strong>You Have Created WCE RSC 2017 Account Successfully! Please proceed to login.</strong>
+                <strong>You Have Created WCE RSC 2018 Account Successfully! Please proceed to login.</strong>
               </div>
                 </div>
             </div>
@@ -438,7 +438,7 @@ if(isset($_POST['registered']))
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
                 <button class="close" aria-hidden="true" type="button" data-dismiss="alert">×</button>
-                  <strong>Your RSC 2017 account was created successfully! Proceed to Login</strong>
+                  <strong>Your RSC 2018 account was created successfully! Proceed to Login</strong>
               </div>
                 </div>
             </div>
@@ -478,7 +478,7 @@ if(isset($_POST['registered']))
           <div class="col-md-7">
 
             <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Create New RSC 2017 Account</span></h4>
+            <h4 class="classic-title"><span>Create New RSC 2018 Account</span></h4>
 
 <form role="form" class="contact-form"  id='contact-form' action='<?php echo $acm->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <input type='hidden' name='registered' id='registered' value='1'/>
@@ -555,7 +555,7 @@ if(isset($_POST['registered']))
           <div class="col-md-5">
 
             <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Login To Your RSC 2017 Account</span></h4>
+            <h4 class="classic-title"><span>Login To Your RSC 2018 Account</span></h4>
 
             <!-- Start Contact Form -->
             <form role="form"  class="contact-form" id="contact-form2" method="post" action="<?php echo $acm->GetSelfScript(); ?>">
@@ -675,11 +675,11 @@ if(isset($_POST['registered']))
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
               <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2016 is the 1st National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+              <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
               <ul>
                 <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
                 <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
+                <li><span>Website:</span> http://rsc.wce.ac.in</li>
               </ul>
             </div>
           </div>
@@ -694,7 +694,7 @@ if(isset($_POST['registered']))
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy; 2017 WCE Research Symposium on Computing - All Rights Reserved <br/>
+              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
                 Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
             </div>
             <div class="col-md-6">
