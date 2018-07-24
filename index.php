@@ -113,16 +113,6 @@ require_once("./include/acm_membership_config.php");
         <div class="container">
           <div class="row">
             <div class="col-md-9">
-              <!-- Start Contact Info -->
-              <ul class="contact-details">
-                <li><a href="#"><i class="fa fa-map-marker"></i> Walchand College of Engineering, Sangli, MH-IN</a>
-                </li>
-                <li><a href="mailto:<?php echo $acm->SiteEmail(); ?>"><i class="fa fa-envelope-o"></i> <?php echo $acm->SiteEmail(); ?></a>
-                </li>
-                <li><a href="#"><i class="fa fa-phone"></i> <?php echo $acm->SiteContact(); ?></a>
-                </li>
-              </ul>
-              <!-- End Contact Info -->
             </div>
             <!-- .col-md-6 -->
             <div class="col-md-3">
@@ -359,6 +349,9 @@ require_once("./include/acm_membership_config.php");
     </header>
     <!-- End Header Section -->
 
+    <marquee behavior="alternate"><span class="badge badge-secondary">New</span><b>Welcome to the 3rd National Research Symposium on Computing.</b></marquee>
+    <marquee behavior="alternate"><a href="#" class="badge badge-primary">New</a><b>The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE. </b></marquee>
+    <marquee><a href="#" class="badge badge-primary">New</a><b><a href="asset/Brochure.pdf"> Brochure for RSC-2018 </a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="#" class="badge badge-primary">New</a><b>Conference Paper Template in [<a href="asset/Template_MS_Word.docm" target="_blank">MSWORD</a>] or in [<a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines" target="_blank">LATEX</a>]</b></b></marquee>
 
     <!-- Start Home Page Slider -->
     <section id="home">
