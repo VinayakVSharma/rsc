@@ -482,7 +482,7 @@ require_once("./include/acm_membership_config.php");
             <!-- Classic Heading -->
             <h4 class="classic-title"><span>Notifications</span></h4>
 
-            <marquee behavior="scroll" direction="up" scrollamount="1" height="100%" > 
+            <marquee behavior="scroll" direction="up" scrollamount="2" height="100%" vspace="10%"> 
               <a href="#" class="badge badge-primary">New</a>
               <b>
                 <a href="asset/Brochure.pdf"> Brochure for RSC-2018 </a>  <br> 

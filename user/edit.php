@@ -766,12 +766,12 @@ $status = $acm->UserStatus();
           <!-- Start Contact Widget -->
           <div class="col-md-3">
             <div class="footer-widget contact-widget">
-              <h4><img src="images/footer-acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
-              <p>WCE Research Symposium on Computing 2016 is the 1st National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
+              <h4><img src="images/acm.png" class="img-responsive" alt="WCE Research Symposium on Computing" /></h4>
+              <p>WCE Research Symposium on Computing 2018 is the 3rd National Level event organized by Department of Computer Science &amp; Engineering, Walchand College of Engineering, Sangli.</p>
               <ul>
                 <li><span>Phone Number:</span> <?php echo $acm->SiteContact(); ?></li>
                 <li><span>Email:</span> <?php echo $acm->SiteEmail(); ?></li>
-                <li><span>Website:</span> http://rs.walchandsangli.ac.in</li>
+                <li><span>Website:</span> http://rsc.wce.ac.in</li>
               </ul>
             </div>
           </div>
@@ -786,7 +786,7 @@ $status = $acm->UserStatus();
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy; 2016 WCE Research Symposium on Computing - All Rights Reserved <br/>
+              <p>&copy; 2018 WCE Research Symposium on Computing - All Rights Reserved <br/>
                 Developed By: <a href="http://cbainc.in" target="_blank">CBA Solutions</a> </p>
             </div>
             <div class="col-md-6">
