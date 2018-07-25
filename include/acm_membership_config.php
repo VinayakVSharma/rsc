@@ -4,10 +4,10 @@ require_once("./include/acm_membership.php");
 $acm = new ACMMembership();
 
 //Provide your site name here
-$acm->SetWebsiteName('WCE Research Symposium on Computing - RSC 2018');
+$acm->SetWebsiteName('<img src="images/Springer.png" alt="Springer"> WCE Research Symposium on Computing - RSC 2018  <img src="images/ijcse.jpg" alt="IJCSE">');
 
 //Provide the email address where you want to get notifications
-$acm->SetAdminEmail('THIRD NATIONAL RESEARCH SYMPOSIUM ON COMPUTING <br/>National Level joint Event by WCE ACM Student Chapter and  Department of CSE and Department of IT (WCE,Sangli) and Jabalpur College of Engineering, Jabalpur <br>At Walchand College of Engineering, Sangli.');
+$acm->SetAdminEmail('&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTHIRD NATIONAL RESEARCH SYMPOSIUM ON COMPUTING');
 $acm->SetSiteContact('+91 233 2300383 ');
 $acm->SetSiteEmail('chair.rsc@walchandsangli.ac.in');
 $acm->SetSiteFB('#');

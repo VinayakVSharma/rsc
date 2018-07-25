@@ -113,6 +113,16 @@ require_once("./include/acm_membership_config.php");
         <div class="container">
           <div class="row">
             <div class="col-md-9">
+              <!-- Start Contact Info -->
+              <ul class="contact-details">
+                <li><a href="#"><i class="fa fa-map-marker"></i> Walchand College of Engineering, Sangli, MH-IN</a>
+                </li>
+                <li><a href="mailto:<?php echo $acm->SiteEmail(); ?>"><i class="fa fa-envelope-o"></i> <?php echo $acm->SiteEmail(); ?></a>
+                </li>
+                <li><a href="#"><i class="fa fa-phone"></i> <?php echo $acm->SiteContact(); ?></a>
+                </li>
+              </ul>
+              <!-- End Contact Info -->
             </div>
             <!-- .col-md-6 -->
             <div class="col-md-3">
@@ -231,10 +241,14 @@ require_once("./include/acm_membership_config.php");
 
                 <li><a href="gallery.php"><span class="pull-left"><i class="fa fa-image"></i></span>&nbsp;&nbsp;Gallery</a>
                 </li>
+
                 <li><a href="about.php"><span class="pull-left"><i class="fa fa-info-circle"></i></span>&nbsp;&nbsp;About</a>
                 </li>
+
+
                 <li><a href="contact.php"><span class="pull-left"><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;Contact</a>
                 </li>
+
                 <?php if($acm->CheckLogin()){ 
 
                   ?>
@@ -350,112 +364,140 @@ require_once("./include/acm_membership_config.php");
     <!-- End Header Section -->
 
     <marquee behavior="alternate"><span class="badge badge-secondary">New</span><b>Welcome to the 3rd National Research Symposium on Computing.</b></marquee>
-    <marquee behavior="alternate"><a href="#" class="badge badge-primary">New</a><b>The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE. </b></marquee>
-    <marquee><a href="#" class="badge badge-primary">New</a><b><a href="asset/Brochure.pdf"> Brochure for RSC-2018 </a>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="#" class="badge badge-primary">New</a><b>Conference Paper Template in [<a href="asset/Template_MS_Word.docm" target="_blank">MSWORD</a>] or in [<a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines" target="_blank">LATEX</a>]</b></b></marquee>
+    <marquee behavior="alternate"><a href="#" class="badge badge-primary">New</a><b>The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE. </b> &nbsp&nbsp<h3></marquee>
 
-    <!-- Start Home Page Slider -->
-    <section id="home">
-      <!-- Carousel -->
-      <div id="main-slide" class="carousel slide" data-ride="carousel">
+      <!-- Start Home Page Slider -->
+      <section id="home">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
-          <li data-target="#main-slide" data-slide-to="1"></li>
-          <li data-target="#main-slide" data-slide-to="2"></li>
-          <li data-target="#main-slide" data-slide-to="3"></li>
-          <li data-target="#main-slide" data-slide-to="4"></li>
-          <li data-target="#main-slide" data-slide-to="5"></li>
-        </ol>
-        <!--/ Indicators end-->
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slide" data-slide-to="1"></li>
+            <li data-target="#main-slide" data-slide-to="2"></li>
+            <li data-target="#main-slide" data-slide-to="3"></li>
+            <li data-target="#main-slide" data-slide-to="4"></li>
+            <li data-target="#main-slide" data-slide-to="5"></li>
+          </ol>
+          <!--/ Indicators end-->
 
-        <!-- Carousel inner -->
-        <div class="carousel-inner" style="max-height:450px;">
-          <div class="item active">
-            <img class="img-responsive" src="images/slider/1.jpg" alt="slider">
+          <!-- Carousel inner -->
+          <div class="carousel-inner" style="max-height:450px;">
+            <div class="item active">
+              <img class="img-responsive" src="images/slider/1.jpg" alt="slider">
+            </div>
+            <!--/ Carousel item end -->
+            <div class="item">
+              <img class="img-responsive" src="images/slider/2.jpg" alt="slider">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="images/slider/3.jpg" alt="slider">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="images/slider/4.jpg" alt="slider">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="images/slider/5.jpg" alt="slider">
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="images/slider/5.jpg" alt="slider">
+            </div>
+            <!--/ Carousel item end -->
           </div>
-          <!--/ Carousel item end -->
-          <div class="item">
-            <img class="img-responsive" src="images/slider/2.jpg" alt="slider">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="images/slider/3.jpg" alt="slider">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="images/slider/4.jpg" alt="slider">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="images/slider/5.jpg" alt="slider">
-          </div>
-          <div class="item">
-            <img class="img-responsive" src="images/slider/5.jpg" alt="slider">
-          </div>
-          <!--/ Carousel item end -->
+          <!-- Carousel inner end-->
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#main-slide" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+          </a>
+          <a class="right carousel-control" href="#main-slide" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+          </a>
         </div>
-        <!-- Carousel inner end-->
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#main-slide" data-slide="prev">
-          <span><i class="fa fa-angle-left"></i></span>
-        </a>
-        <a class="right carousel-control" href="#main-slide" data-slide="next">
-          <span><i class="fa fa-angle-right"></i></span>
-        </a>
-      </div>
-      <!-- /carousel -->
-    </section>
-    <!-- End Home Page Slider -->
+        <!-- /carousel -->
+      </section>
+      <!-- End Home Page Slider -->
 
 
-    <!-- Start Content -->
-    <div id="content">
+      <!-- Start Content -->
+      <div id="content">
 
-      <!-- Start News & Skill Section -->
+        <!-- Start News & Skill Section -->
 
-      <div class="container" style="text-align:justify">
-        <div class="row">
-         <div class="col-md-8" id="whowe">
+        <div class="container" style="text-align:justify">
+          <div class="row">
+           <div class="col-md-8" id="whowe">
 
-          <h1 class="accent-color"><?php echo $acm->SiteName(); ?></h1>
-          <p><strong><?php echo $acm->AdminEmail(); ?> As a Co-located activity of <br> International Conference on Computing in Science and Technology (ICCET 2019).</strong></p>
-          <br/><br/>
-          <p>At Walchand College of Engineering (WCE) Sangli, Computer Science and Engineering (CSE) Department as well as Information Technology (IT) Department are active in promoting research in advances in CSE/ IT under Association for Computing Machinery (ACM) India. This has resulted into instituting WCE-ACM chapter. First and second National Research Symposium was organized during Dec 19-20, 2016 and Dec 15-16, 2017 respectively at WCE and it received excellent response from researchers.</p><br>
-          <p> In this series, the WCE-ACM chapter is delighted to announce its third National Research Symposium on Computing (RSC 2018) in December 2018 under the technical support from ACM. This symposium has been considered as a co-located activity of International Conference on Computing in Engineering and Technology (ICCET 2019). The WCE-ACM chapter welcomes research paper submissions from faculty, doctoral students, research scholars and industry experts who are actively working in the area of Computer Science and Engineering and allied branches.</p><br>
-          <p>The RSC 2018 will provide a unique opportunity to the researchers to present their research work and will enable them to interact with renowned and experienced researchers in all areas of Computer Science and Engineering as well as Information Technology. The symposium will also provide to its participants, independent and constructive feedback about their completed/planned research work for its further improvements. The research symposium aims at establishing and promoting social and intellectual interactions among students and researchers from academia and industry. The symposium will be accompanied by prominent experts who will deliver the keynote address and will actively participate in critical discussions at the symposium. The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE.</p><br>
-        </div>
+            <h1 class="accent-color"> WCE Research Symposium on Computing - RSC 2018 </h1>
+            <p><strong>THIRD NATIONAL RESEARCH SYMPOSIUM ON COMPUTING <br/>National Level joint Event by WCE ACM Student Chapter and  Department of CSE and Department of IT (WCE,Sangli) and Jabalpur College of Engineering, Jabalpur <br>At Walchand College of Engineering, Sangli. <br>As a Co-located activity of International Conference on Computing in Science and Technology (ICCET 2019).</strong></p>
+            <br/><br/>
+            <p>At Walchand College of Engineering (WCE) Sangli, Computer Science and Engineering (CSE) Department as well as Information Technology (IT) Department are active in promoting research in advances in CSE/ IT under Association for Computing Machinery (ACM) India. This has resulted into instituting WCE-ACM chapter. First and second National Research Symposium was organized during Dec 19-20, 2016 and Dec 15-16, 2017 respectively at WCE and it received excellent response from researchers.</p><br>
+            <p> In this series, the WCE-ACM chapter is delighted to announce its third National Research Symposium on Computing (RSC 2018) in December 2018 under the technical support from ACM. This symposium has been considered as a co-located activity of International Conference on Computing in Engineering and Technology (ICCET 2019). The WCE-ACM chapter welcomes research paper submissions from faculty, doctoral students, research scholars and industry experts who are actively working in the area of Computer Science and Engineering and allied branches.</p><br>
+            <p>The RSC 2018 will provide a unique opportunity to the researchers to present their research work and will enable them to interact with renowned and experienced researchers in all areas of Computer Science and Engineering as well as Information Technology. The symposium will also provide to its participants, independent and constructive feedback about their completed/planned research work for its further improvements. The research symposium aims at establishing and promoting social and intellectual interactions among students and researchers from academia and industry. The symposium will be accompanied by prominent experts who will deliver the keynote address and will actively participate in critical discussions at the symposium. The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE.</p><br>
+          </div>
 
 
-        <div class="col-md-4" id="news">
+          <div class="col-md-4" id="news">
+            <div class="latest-posts">
+
+              <!-- Classic Heading -->
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-award-1"></i>Supported By</a></li>
+                <li><a href="#tab2" data-toggle="tab"><i class="icon-beaker"></i>Publication By</a></li>
+              </ul>
+              <br>
+
+              <div class="tab-content">
+               <div class="tab-pane fade in active" id="tab1">
+                <img src="images/wceacm.png" alt="WCE ACM Student Chapter" />
+                <br/><br/>
+                <img src="images/teqip3logo.png" alt="TEQIP-III" /><br/><br/>
+
+                <img src="images/acmindia.gif" alt="ACM India" />
+                <br/>
+                <br/-->
+              </div>
+
+              <div class="tab-pane fade" id="tab2">
+
+                <h5><a href="https://www.springer.com/in" target="_blank"><img src="images/Springer.png" alt="Springer" /></a></h5>
+                <br/><br/>
+
+
+                <h5><a href="http://www.ijcseonline.org/" target="_blank"><img src="images/ijcse_logo.jpg" alt="International Journal of Computer Sciences and Engineering" /></a></h5>
+                <br/><br/>
+
+                <br/-->
+              </div>
+
+            </div>
+
+
+
+          </div>
+
           <div class="latest-posts">
 
             <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Supported By</span></h4>
-            
-            <img src="images/wceacm.png" alt="WCE ACM Student Chapter" />
-            <br/><br/>
-            <img src="images/teqip3logo.png" alt="TEQIP-III" /><br/><br/>
+            <h4 class="classic-title"><span>Notifications</span></h4>
 
-            <img src="images/acmindia.gif" alt="ACM India" />
-            <br/>
-            <br/-->
-            
-          </div>
+            <marquee behavior="scroll" direction="up" scrollamount="3" height="100%" > 
+              <a href="#" class="badge badge-primary">New</a>
+              <b>
+                <a href="asset/Brochure.pdf"> Brochure for RSC-2018 </a>  <br> 
+                <a href="#" class="badge badge-primary">New</a>
+                <b>Conference Paper Template in [<a href="asset/Template_MS_Word.docm" target="_blank">MSWORD</a>] or in [<a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines" target="_blank">LATEX</a>]
+                </b>
+              </b>
+              <br>
+               <a href="#" class="badge badge-primary">New</a><b>First National Research Symposium <a href="asset/RSC-2016.pdf">RSC-2016</a></b>
+               <br>
+               <a href="#" class="badge badge-primary">New</a><b>Second National Research Symposium <a href="asset/RSC-2017.pdf">RSC-2017</a></b>
+            </marquee>
 
-          <div class="latest-posts">
 
-            <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Publication By</span></h4>
 
-            
-            <h5><a href="https://www.springer.com/in" target="_blank"><img src="images/Springer.png" alt="Springer" /></a></h5>
-            <br/><br/>
-            
-            
-            <h5><a href="http://www.ijcseonline.org/" target="_blank"><img src="images/ijcse_logo.jpg" alt="International Journal of Computer Sciences and Engineering" /></a></h5>
-            <br/><br/>
-
-            <br/-->
-            
           </div>
 
         </div>

@@ -733,9 +733,9 @@ require_once("./include/acm_membership_config.php");
 
 
 
-              <h1 class="accent-color"><?php echo $acm->SiteName(); ?></h1>
+              <h1 class="accent-color">WCE Research Symposium on Computing - RSC 2018</h1>
 
-              <p><strong><?php echo $acm->AdminEmail(); ?></strong></p>
+              <p><strong>THIRD NATIONAL RESEARCH SYMPOSIUM ON COMPUTING <br/>National Level joint Event by WCE ACM Student Chapter and  Department of CSE and Department of IT (WCE,Sangli) and Jabalpur College of Engineering, Jabalpur <br>At Walchand College of Engineering, Sangli. <br>As a Co-located activity of International Conference on Computing in Science and Technology (ICCET 2019).</strong></p>
 
 
 
@@ -743,7 +743,7 @@ require_once("./include/acm_membership_config.php");
 
 
 
-            <p>The <?php echo $acm->SiteName(); ?> welcomes research paper submissions from faculty, doctoral students, research scholars and industry experts who are actively working in the area of Computer Science and Engineering and allied branches. 
+            <p>The WCE Research Symposium on Computing - RSC 2018 welcomes research paper submissions from faculty, doctoral students, research scholars and industry experts who are actively working in the area of Computer Science and Engineering and allied branches. 
 
                 The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE. <br/>
 
