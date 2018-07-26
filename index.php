@@ -363,7 +363,7 @@ require_once("./include/acm_membership_config.php");
     </header>
     <!-- End Header Section -->
 
-    <marquee behavior="alternate"><span class="badge badge-secondary">New</span><b>Welcome to the 3rd National Research Symposium on Computing.</b></marquee>
+    <marquee behavior="alternate"><span class="badge badge-secondary">New</span><b>Welcome to the 3rd National Research Symposium on Computing at WCE, A Co-located activity of <a href="http://iccet.co.in" target="_blank">ICCET-2019</a></b></marquee>
     <marquee behavior="alternate"><a href="#" class="badge badge-primary">New</a><b>The selected papers will be forwarded for its publication either in Springer's AISC series or IJCSE. </b> &nbsp&nbsp<h3></marquee>
 
       <!-- Start Home Page Slider -->
@@ -485,7 +485,7 @@ require_once("./include/acm_membership_config.php");
             <marquee behavior="scroll" direction="up" scrollamount="2" height="100%" vspace="10%"> 
               <a href="#" class="badge badge-primary">New</a>
               <b>
-                <a href="asset/Brochure.pdf"> Brochure for RSC-2018 </a>  <br> 
+                <a href="asset/Brochure.pdf" target="_blank"> Brochure for RSC-2018 </a>  <br> 
                 <a href="#" class="badge badge-primary">New</a>
                 <b>Conference Paper Template in [<a href="asset/Template_MS_Word.docm" target="_blank">MSWORD</a>] or in [<a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines" target="_blank">LATEX</a>]
                 </b>

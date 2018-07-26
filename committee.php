@@ -424,7 +424,7 @@ if($ref_id==2)
             <tr>
               <td>3</td>
               <td>Convener</td>
-              <td>M.A. Shah</td>
+              <td>Mrs. M.A. Shah</td>
               <td>Department of Computer Science and Engineering, WCE</td>
             </tr>
 
