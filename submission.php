@@ -383,21 +383,21 @@ require_once("./include/acm_membership_config.php");
       <div class="container">
         <div class="page-content">
 
-          <div class="col-md-9">
+<!--          <div class="col-md-9">
              <div class="row">
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
                 <h3>The Submissions portal is yet to open. For further updates stay tuned !.!.! <br/></h3>
               </div>
                 </div>
-            </div>
+            </div>-->
 
-        <!--  <div class="col-md-9">
+      <div class="col-md-9">
              <div class="row">
             <div class="col-sm-12">
               <div class="alert alert-success alert-dismissible">
                 <h3>Please provide your submissions on our easy chair portal. <br/>
-                  <a href="https://easychair.org/conferences/?conf=rsc20170" target="_blank">https://easychair.org/conferences/?conf=rsc20170</a></h3>
+                  <a href="https://easychair.org/conferences/?conf=rsc20180" target="_blank">https://easychair.org/conferences/?conf=rsc20170</a></h3>
               </div>
                 </div>
             </div>
@@ -419,7 +419,7 @@ require_once("./include/acm_membership_config.php");
                   <a href="IJCSE_Copyright_Form.pdf">IJCSE_Copyright_Form.pdf</a></h3>
               </div>
                 </div>
-            </div> -->
+            </div>
 
 
            </div>
