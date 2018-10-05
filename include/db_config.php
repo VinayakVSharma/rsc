@@ -7,7 +7,7 @@ $dbname = "rs";
 $conn =  mysqli_connect($servername,$username,$password,$dbname,3306);
 // check connection
 if(!$conn){
-        die("Connection Failed: ". mysqli_connect_error());
+      //  die("Connection Failed: ". mysqli_connect_error());
 }
 
 $mysqli = new mysqli($servername, $username, $password,$dbname,3306);						
